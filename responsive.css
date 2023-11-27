@@ -1,0 +1,83 @@
+@media only screen and (max-width: 600px) {
+    #frist {
+        border-radius: 10px;
+        padding: 20px 20px;
+    }
+    .input-box {
+        width: 100%;
+        margin: 35px;
+        margin-bottom: 30px;
+    }
+    .input-box label {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+    .input-box input {
+        font-size: 0.9rem;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    .author {
+        width: 40px;
+        border-radius: 50%;
+    }
+    .img {
+        height: 100%;
+        width: 50px;
+    }
+    .dna {
+        display: none;
+    }
+    .dsa {
+        display: inline;
+    }
+    .menu-popup {
+        background-color: #fff;
+        color: #000;
+        padding: 5px;
+        position: absolute;
+        top: 45px;
+        left: 10px;
+        border-radius: 5px;
+        display: none;
+    }
+    .menu-popup a {
+        background-color: #fff;
+        color: #000;
+        text-decoration: none;
+        padding: 5px;
+    }
+    .diposit, .withdraw, .balance {
+        width: 40%;
+    }
+    .diposit-box {
+        height: 100px;
+        width: 115px;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .input-boxx {
+        height: 50%;
+        width: 88%;
+        border-radius: 4px;
+        padding: 10px;
+    }
+    .input-boxx input {
+        font-size: 0.9rem;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    .nonitor-section {
+        height: 32vh;
+    }
+    .input-section {
+        height: 24.7vh;
+    }
+    .input-sections {
+        height: 160%;
+    }
+    .diposit-box h2 {
+        font-size: 1.4rem;
+    }
+  }

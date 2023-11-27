@@ -1,0 +1,117 @@
+<!-- This website was created by
+    Author : Jakaria Talukdar
+    WhatsApp : +880 1798-165091 
+    Telegram : https://t.me/FreelancerXakaria
+    Skype : live:.cid.30337a0103de3db4
+    Facebook : https://www.facebook.com/jakaria.talukdar2001
+    Note : call 01798165091 for live contract
+    date : 28/8/2019 wednesday -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bank yahya is a demo practice project">
+    <meta name="keywords" content="bank, bank yahya, international bank, taka, doller">
+    <meta name="author" content="Jakaria Talukdar">
+    <title>Bank Yahya | Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <section id="frist">
+        <div class="contentBox">
+            <h1>Welcome to bank <span class="brand">Yahya</span></h1>
+            <div class="input-box">
+                <label for="">Bank Account Number</label>
+                <input required type="number" class="inputTags" id="userInput" placeholder="Enter Your Bank Acount Number"><br>
+                <label for="">Password</label>
+                <input required type="password" class="inputTags" id="password" placeholder="Password">
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="sPasss">
+                    <label for="sPasss" class="Spass">Show Password</label>
+                </div>
+            </div>
+            <p class="worngPass" id="worngPass">Wrong usernam or password</p>
+            <button class="loginBtn" id="loginBTN">Login</button>
+        </div>
+    </section>
+    <section id="secound">
+        <div class="hero-section">
+            <div class="navbar">
+                <div class="navbar-content">
+                    <div class="navbar-content-1">
+                        <a href="#" class="dsa" id="menuIcon">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                        <a href="#" class="brand ancor">Yahya</a>
+                        <a href="#" class="ancor dna">Create Account</a>
+                        <a href="#" class="ancor dna">tearms</a>
+                        <a href="#" class="ancor dna">About</a>
+                    </div>
+                    <div class="navbar-content-2">
+                        <a href="#" class="ancor gap">Profine</a>
+                        <a href="#" id="jakku" class="ancor gap relative">Jakaria </a>
+                        <div class="img" id="hovar">
+                            <img src="IMG_20230816_100105_971.jpg" class="author gap" alt="Author">
+                        </div>
+                        <div class="popup" id="ppup">
+                            <a href="#">Dashboard</a><br>
+                            <a href="#">Profile</a><br>
+                            <a href="#">Mobile Banking</a><br>
+                            <a href="#">Settings</a><br>
+                            <a href="#">Log Out</a>
+                        </div>
+                        <div class="menu-popup" id="menu-popup">
+                            <a href="#">Create Account</a><br>
+                            <a href="#">tearms</a><br>
+                            <a href="#">About</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="nonitor-section">
+                <div class="diposit">
+                    <div class="diposit-box">
+                        <h2>Diposit</h2>
+                        <h1>$ <span id="dipoDisplay">00</span></h1>
+                    </div>
+                </div>
+                <div class="withdraw">
+                    <div class="diposit-box">
+                        <h2>withdraw</h2>
+                        <h1>$ <span id="withDrawDisplay">00</span></h1>
+                    </div>
+                </div>
+                <div class="balance">
+                    <div class="diposit-box">
+                        <h2>Balance</h2>
+                        <h1>$ <span id="BalID">1200</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="input-section">
+                <div class="input-section1 input-sections">
+                    <div class="input-box1 input-boxx">
+                        <h1>Diposit</h1>
+                        <input type="number" name="" placeholder="Diposit Amount" id="diposit-input">
+                        <button class="success" id="dipositBtn">Diposit</button>
+                    </div>
+                </div>
+                <div class="input-section2 input-sections">
+                    <div class="input-box2 input-boxx">
+                        <h1>Withdraw</h1>
+                        <input type="number" name="" placeholder="Withdraw Amount" id="withdrawInput">
+                        <button id="withdrawButton">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

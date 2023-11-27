@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Monaco,Menlo,Consolas,"Courier New",monospace;
+}
+@font-face {
+    font-family:logo ;
+    src: url(font/DancingScript-VariableFont_wght.ttf);
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#FF0000, #0000FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#frist {
+    background-color: rgba(0.1, 0.1, 0.1, 0.2);
+    box-shadow: 4px 4px 8px rgba(0.1, 0.1, 0.1, 0.9);
+    border-radius: 10px;
+    padding: 50px 50px;
+    /* display: none; */
+}
+#secound {
+    display: none;
+}
+.contentBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.input-box {
+    display: flex;
+    width: 100%;
+    margin: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-box label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+.input-box input {
+    font-size: 0.9rem;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(163, 163, 163, 0.75);
+    border-radius: 5px;
+    color: #fff;
+}
+.input-box input:focus {
+    outline: 1px solid #fff;
+}
+.input-box input::placeholder {
+    color: rgba(144, 144, 144, 0.904);
+}
+.loginBtn {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #FF0000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.Spass {
+    font-size: 1rem !important;
+}
+.checkbox {
+    padding-top: 8px;
+}
+.worngPass {
+    color: #FF0000;
+    margin-bottom: 8px;
+    display: none;
+}
+.hero-section {
+    height: 100vh;
+    width: 100vw;
+}
+.navbar {
+    height: 50px;
+    width: 100vw;
+
+}
+.navbar-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0.1, 0.1, 0.1, 0.3);
+}
+a {
+    color:#fff ;
+}
+.ancor {
+    text-decoration: none;
+}
+.brand {
+    font-size: 1.7rem;
+    font-family: logo;
+}
+.author {
+    width: 40px;
+    border-radius: 50%;
+}
+.img {
+    height: 100%;
+    width: 50px;
+}
+.navbar-content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gap {
+    margin: 3px;
+}
+.relative {
+    position: relative;
+}
+.popup {
+    background-color: #fff;
+    color: #000 !important;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    display: none;
+
+}
+.popup a {
+    color: #000;
+    text-decoration: none;
+}
+.popup a:hover {
+    text-decoration: underline;
+}
+/* navbar end */
+.nonitor-section {
+    height: 36vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.diposit, .withdraw, .balance {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.diposit-box {
+    height: 150px;
+    width: 280px;
+    background-color: rgba(0.1, 0.1, 0.1, 0.1);
+    box-shadow: 4px 4px 8px #000000ab;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.input-section {
+    height: 44.7vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input-sections {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-boxx {
+    height: 50%;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.input-boxx h1 {
+    color: #000;
+}
+.input-boxx input {
+    font-size: 0.9rem;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(163, 163, 163, 0.75);
+    border-radius: 5px;
+    color: #000;
+    width: 100%;
+}
+.input-boxx button {
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.input-boxx .success {
+    background-color: #28a745 !important;
+}
+.dsa {
+    display: none;
+}
+.menu-popup {
+    display: none;
+}
